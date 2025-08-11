@@ -16,12 +16,19 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&section=header&height=8&color=0:0f172a,50:1e293b,100:334155&reversal=true&animation=fadeIn" width="70%" alt="divider"/>
 </p>
 
-<!-- Social -->
-<p align="center" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;">
-  <a href="mailto:aqeelabbas34@gmail.com"><img src="https://img.shields.io/badge/Email-Hi!-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://linkedin.com/in/aqeel-abbas-58b3aa327"><img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/Aqeelabbas34?tab=followers"><img src="https://img.shields.io/github/followers/Aqeelabbas34?label=Followers&style=for-the-badge&color=10b981" alt="Followers"/></a>
-  <a href="https://github.com/Aqeelabbas34?tab=repositories"><img src="https://img.shields.io/badge/Repos-Explore-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/></a>
+<p align="center">
+  <a href="mailto:aqeelabbas34@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Hi!-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/aqeel-abbas-58b3aa327">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Aqeelabbas34?tab=followers">
+    <img src="https://img.shields.io/github/followers/Aqeelabbas34?style=for-the-badge" alt="Followers">
+  </a>
+  <a href="https://github.com/Aqeelabbas34?tab=repositories">
+    <img src="https://img.shields.io/badge/Repos-Explore-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="Repos">
+  </a>
 </p>
 
 ---
