@@ -1,4 +1,4 @@
-<!-- 🌊 Venom Wave Header (unique, reliable) -->
+<!-- 🌊 Venom Wave Header (unique + reliable) -->
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=venom&section=header&height=240&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=54&animation=fadeIn&desc=Android%20%26%20Flutter%20•%20Clean%20Architecture%20•%20On-Device%20AI&descSize=18&descAlignY=65"
@@ -63,15 +63,16 @@
   <img src="https://streak-stats.demolab.com?user=Aqeelabbas34&theme=tokyonight" height="160" alt="Streak"/>
 </p>
 
-<!-- Animated extras (these will render after workflows run once) -->
+<!-- Animated extras: will render after workflows run once -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aqeelabbas34&theme=dracula&area=true&hide_border=true" alt="Activity Graph"/>
+  <!-- light -->
+  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Snake light"/>
+  <!-- dark -->
+  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Snake dark"/>
 </p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/main/profile-3d-contrib/profile-night-rainbow.svg" height="260" alt="3D Contributions"/>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
 ---
