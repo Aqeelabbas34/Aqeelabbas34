@@ -18,18 +18,20 @@
 
 <p align="center">
   <a href="mailto:aqeelabbas34@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Hi!-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://www.linkedin.com/in/aqeel-abbas-58b3aa327">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://github.com/Aqeelabbas34?tab=followers">
-    <img src="https://img.shields.io/github/followers/Aqeelabbas34?style=for-the-badge" alt="Followers">
+    <img src="https://img.shields.io/github/followers/Aqeelabbas34?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=181717" alt="Followers">
   </a>
   <a href="https://github.com/Aqeelabbas34?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-Explore-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="Repos">
+    <img src="https://img.shields.io/badge/Repos-Explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos">
   </a>
 </p>
+
+
 
 ---
 
