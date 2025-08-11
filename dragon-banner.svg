@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1c2c"/>
+      <stop offset="50%" stop-color="#5b86e5"/>
+      <stop offset="100%" stop-color="#36d1dc"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.8)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Dragon silhouette (simple stylized path) -->
+    <path id="dragon" d="M65,15
+         c45,10 80,35 95,60
+         c10,18 12,35 5,55
+         c40,-10 75,0 95,20
+         c-30,5 -55,15 -70,30
+         c-8,-10 -25,-20 -45,-20
+         c-10,15 -35,25 -60,20
+         c10,-10 15,-22 12,-32
+         c-30,5 -55,0 -70,-12
+         c20,-5 35,-12 45,-22
+         c-28,-5 -45,-20 -52,-35
+         c20,5 40,5 58,0
+         c-28,-12 -40,-30 -45,-45
+         c18,8 40,12 59,11 z"/>
+    <!-- Motion path for dragon -->
+    <path id="flight" d="M -120,120 C 200,40 400,200 650,120 S 1080,150 1300,120" fill="none"/>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="1200" height="280" fill="url(#grad)"/>
+
+  <!-- Soft waves -->
+  <g opacity="0.30">
+    <path d="M0,200 C200,160 400,240 600,200 C800,160 1000,240 1200,200 L1200,280 L0,280 Z" fill="#ffffff"/>
+  </g>
+  <g opacity="0.15">
+    <path d="M0,220 C240,180 480,260 720,220 C960,180 1200,260 1200,260 L1200,280 L0,280 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g id="particles" filter="url(#glow)" opacity="0.6">
+    <circle cx="80" cy="230" r="2" fill="#BBF7D0">
+      <animate attributeName="cy" values="230;210;230" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="245" r="2" fill="#A7F3D0">
+      <animate attributeName="cy" values="245;225;245" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="235" r="2" fill="#93C5FD">
+      <animate attributeName="cy" values="235;215;235" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <g filter="url(#glow)">
+    <text x="50%" y="56" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, sans-serif"
+          font-size="38" fill="#ffffff" letter-spacing="1">
+      Aqeel Abbas
+    </text>
+    <text x="50%" y="86" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, sans-serif"
+          font-size="16" fill="#d1e9ff">
+      Android • Flutter • Clean Architecture • On-Device AI
+    </text>
+  </g>
+
+  <!-- Dragon -->
+  <g fill="#111827" stroke="#ffffff" stroke-width="1.2" filter="url(#glow)">
+    <use href="#dragon">
+      <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#flight"/>
+      </animateMotion>
+    </use>
+  </g>
+
+  <!-- Fire breath (animated gradient plume) -->
+  <g opacity="0.8">
+    <path id="flame" d="M0,0 C8,-6 18,-4 24,0 C16,4 6,6 0,0 Z" fill="url(#smoke)">
+      <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#flight"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.8;1" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
