@@ -31,7 +31,7 @@
 - On-device **AI** with **ML Kit, TFLite, MediaPipe**
 - **CI/CD** with GitHub Actions + Fastlane
 
-## 🧰 Tech Stack (Pyramid Layout)
+## 🧰 Tech Stack 
 <!-- Row 1 -->
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kotlin" height="54" title="Kotlin"/>
@@ -78,15 +78,21 @@
 </p>
 
 ---
-
 ## 🚀 Featured Projects
+
+<details>
+<summary>Click to expand</summary>
+
 | Project | Highlights | Stack |
 |---|---|---|
 | **ExpenseTracker** | Biometric-secured budgeting; categories & insights; export CSV; **offline-first** | Kotlin· Room | 
 | **MyAI** | Real-time AI chat; streamed Markdown; typing indicators; chat memory | Kotlin · Retrofit | 
 | **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | 
 | **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | 
- 
+
+</details>
+
+
 
 ---
 
