@@ -82,10 +82,11 @@
 ## 🚀 Featured Projects
 | Project | Highlights | Stack | Links |
 |---|---|---|---|
-| **ExpenseTracker** | Biometric-secured budgeting; categories & insights; export CSV; **offline-first** | Compose · Room | [Repo](#) · [APK](#) |
-| **MyAI** | Real-time AI chat; streamed Markdown; typing indicators; chat memory | Kotlin · Retrofit | [Repo](#) |
-| **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | [Repo](#) |
-| **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | [Repo](#) |
+| **ExpenseTracker** | Biometric-secured budgeting; categories & insights; export CSV; **offline-first** | Kotlin· Room | 
+| **MyAI** | Real-time AI chat; streamed Markdown; typing indicators; chat memory | Kotlin · Retrofit | 
+| **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | 
+| **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | 
+ 
 
 ---
 
