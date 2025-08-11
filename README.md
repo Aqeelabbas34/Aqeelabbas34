@@ -1,11 +1,6 @@
-<!-- 🌊 Venom Wave Header (with cache-bust + fallback) -->
+<!-- 🐉 Midnight Dragon Header -->
 <p align="center">
-  <picture>
-    <!-- Primary (venom) -->
-    <source srcset="https://capsule-render.vercel.app/api?type=venom&section=header&height=240&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=54&animation=fadeIn&desc=Android%20%26%20Flutter%20•%20Clean%20Architecture%20•%20On-Device%20AI&descSize=18&descAlignY=65&cacheBust=2" />
-    <!-- Fallback (waving) -->
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=52&animation=twinkling&cacheBust=2" width="100%" alt="Aqeel Abbas — Header"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/main/dragon-banner.svg" width="100%" alt="Aqeel Abbas — Midnight Dragon Banner"/>
 </p>
 
 <!-- Typing line -->
@@ -16,9 +11,9 @@
   />
 </p>
 
-<!-- Thin animated divider -->
+<!-- Thin divider -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&section=header&height=8&color=gradient&reversal=true&animation=fadeIn&cacheBust=2" width="70%" alt="divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&section=header&height=8&color=0:0f172a,50:1e293b,100:334155&reversal=true&animation=fadeIn" width="70%" alt="divider"/>
 </p>
 
 <!-- Social -->
@@ -36,9 +31,50 @@
 - On-device **AI** with **ML Kit, TFLite, MediaPipe**
 - **CI/CD** with GitHub Actions + Fastlane
 
-## 🧰 Tech Stack
+## 🧰 Tech Stack (Pyramid Layout)
+<!-- Row 1 -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,dart,flutter,androidstudio,gradle,git,githubactions,graphql,firebase,supabase,sqlite,postgres,linux,docker" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=kotlin" height="54" title="Kotlin"/>
+</p>
+
+<!-- Row 2 -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java" height="48" title="Java"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=dart" height="48" title="Dart"/>
+</p>
+
+<!-- Row 3 -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter" height="44" title="Flutter"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=androidstudio" height="44" title="Android Studio"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=gradle" height="44" title="Gradle"/>
+</p>
+
+<!-- Row 4 -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=graphql" height="40" title="GraphQL"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=firebase" height="40" title="Firebase"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=sqlite" height="40" title="SQLite"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=postgres" height="40" title="PostgreSQL"/>
+</p>
+
+<!-- Row 5 -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git" height="36" title="Git"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=githubactions" height="36" title="GitHub Actions"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=docker" height="36" title="Docker"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=linux" height="36" title="Linux"/>
+  &nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=postman" height="36" title="Postman"/>
 </p>
 
 ---
@@ -51,8 +87,6 @@
 | **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | [Repo](#) |
 | **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | [Repo](#) |
 
-> Tip: add 2–3 screenshots per project in `/screenshots` inside each repo and link them here.
-
 ---
 
 ## 📊 Live Stats
@@ -64,7 +98,7 @@
   <img src="https://streak-stats.demolab.com?user=Aqeelabbas34&theme=tokyonight" height="160" alt="Streak"/>
 </p>
 
-<!-- Animated extras: will render after workflows run once -->
+<!-- Animated extras -->
 <p align="center">
   <!-- light -->
   <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/snake.svg#gh-light-mode-only" alt="Snake light"/>
@@ -89,7 +123,7 @@
 <a href="mailto:aqeelabbas34@gmail.com"><img src="https://img.shields.io/badge/Email-aqeelabbas34%40gmail.com-0ea5e9?style=flat-square" alt="Email badge"></a>
 <a href="https://linkedin.com/in/aqeel-abbas-58b3aa327"><img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=flat-square&logo=linkedin" alt="LinkedIn badge"></a>
 
-<!-- Footer wave matching header -->
+<!-- Footer -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&section=footer&height=120&color=0:36d1dc,50:5b86e5,100:1f1c2c&cacheBust=2" width="100%" alt="Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0f172a,50:1e293b,100:334155" width="100%" alt="Footer"/>
 </p>
