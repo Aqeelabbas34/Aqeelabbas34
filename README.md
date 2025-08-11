@@ -139,8 +139,16 @@
 | 2025* | **Android Basics Nanodegree** — _ongoing_ |
 
 ## 🤝 Connect
-<a href="mailto:aqeelabbas34@gmail.com"><img src="https://img.shields.io/badge/Email-aqeelabbas34%40gmail.com-0ea5e9?style=flat-square" alt="Email badge"></a>
-<a href="https://linkedin.com/in/aqeel-abbas-58b3aa327"><img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=flat-square&logo=linkedin" alt="LinkedIn badge"></a>
+<p align="center">
+  <!-- Gmail compose (works in browser) -->
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aqeelabbas34@gmail.com&su=Hello%20Aqeel&body=Hi%20Aqeel%2C%0A%0A">
+    <img src="https://img.shields.io/badge/Email-aqeelabbas34%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email via Gmail">
+  </a>
+  <a href="https://linkedin.com/in/aqeel-abbas-58b3aa327">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin" alt="LinkedIn badge">
+  </a>
+</p>
+
 
 <!-- Footer -->
 <p align="center">
