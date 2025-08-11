@@ -1,10 +1,11 @@
-<!-- 🌊 Venom Wave Header (unique + reliable) -->
+<!-- 🌊 Venom Wave Header (with cache-bust + fallback) -->
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=venom&section=header&height=240&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=54&animation=fadeIn&desc=Android%20%26%20Flutter%20•%20Clean%20Architecture%20•%20On-Device%20AI&descSize=18&descAlignY=65"
-    width="100%"
-    alt="Aqeel Abbas — Header"
-  />
+  <picture>
+    <!-- Primary (venom) -->
+    <source srcset="https://capsule-render.vercel.app/api?type=venom&section=header&height=240&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=54&animation=fadeIn&desc=Android%20%26%20Flutter%20•%20Clean%20Architecture%20•%20On-Device%20AI&descSize=18&descAlignY=65&cacheBust=2" />
+    <!-- Fallback (waving) -->
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:1f1c2c,50:5b86e5,100:36d1dc&text=Aqeel%20Abbas&fontColor=ffffff&fontSize=52&animation=twinkling&cacheBust=2" width="100%" alt="Aqeel Abbas — Header"/>
+  </picture>
 </p>
 
 <!-- Typing line -->
@@ -17,7 +18,7 @@
 
 <!-- Thin animated divider -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&section=header&height=8&color=gradient&reversal=true&animation=fadeIn" width="70%" alt="divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&section=header&height=8&color=gradient&reversal=true&animation=fadeIn&cacheBust=2" width="70%" alt="divider"/>
 </p>
 
 <!-- Social -->
@@ -66,9 +67,9 @@
 <!-- Animated extras: will render after workflows run once -->
 <p align="center">
   <!-- light -->
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Snake light"/>
+  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/snake.svg#gh-light-mode-only" alt="Snake light"/>
   <!-- dark -->
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Snake dark"/>
+  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/snake-dark.svg#gh-dark-mode-only" alt="Snake dark"/>
 </p>
 
 <p align="center">
@@ -90,5 +91,5 @@
 
 <!-- Footer wave matching header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&section=footer&height=120&color=0:36d1dc,50:5b86e5,100:1f1c2c" width="100%" alt="Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&section=footer&height=120&color=0:36d1dc,50:5b86e5,100:1f1c2c&cacheBust=2" width="100%" alt="Footer"/>
 </p>
