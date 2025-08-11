@@ -1,7 +1,8 @@
+# .github/workflows/contrib-3d.yml
 name: 3D Profile
 on:
   schedule:
-    - cron: "0 1 * * *"  # daily
+    - cron: "0 1 * * *"   # daily
   workflow_dispatch:
 
 permissions:
@@ -11,21 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1) Checkout
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # 2) Generate SVGs (token passed as INPUT, not env)
+      # This action reads GITHUB_TOKEN from ENV (not from 'with:')
       - name: Generate 3D contributions
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
-      # 3) Ensure folder exists (some runners need this)
-      - name: Ensure output folder
-        run: mkdir -p profile-3d-contrib
-
-      # 4) Commit & push generated files
       - name: Commit & push 3D svgs
         run: |
           git config user.name "github-actions[bot]"
