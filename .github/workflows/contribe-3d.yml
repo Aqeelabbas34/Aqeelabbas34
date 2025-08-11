@@ -14,14 +14,18 @@ jobs:
       # 1) Checkout
       - uses: actions/checkout@v4
 
-      # 2) Generate SVGs (this action expects token in ENV)
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # 2) Generate SVGs (token passed as INPUT, not env)
+      - name: Generate 3D contributions
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
 
-      # 3) Commit generated files into profile-3d-contrib/
+      # 3) Ensure folder exists (some runners need this)
+      - name: Ensure output folder
+        run: mkdir -p profile-3d-contrib
+
+      # 4) Commit & push generated files
       - name: Commit & push 3D svgs
         run: |
           git config user.name "github-actions[bot]"
