@@ -80,8 +80,8 @@
 ---
 
 ## 🚀 Featured Projects
-| Project | Highlights | Stack | Links |
-|---|---|---|---|
+| Project | Highlights | Stack |
+|---|---|---|
 | **ExpenseTracker** | Biometric-secured budgeting; categories & insights; export CSV; **offline-first** | Kotlin· Room | 
 | **MyAI** | Real-time AI chat; streamed Markdown; typing indicators; chat memory | Kotlin · Retrofit | 
 | **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | 
