@@ -17,8 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="mailto:aqeelabbas34@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <!-- Opens Gmail compose in the browser (most reliable) -->
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aqeelabbas34@gmail.com&su=Hello%20Aqeel&body=Hi%20Aqeel%2C%0A%0A" rel="nofollow">
+    <img src="https://img.shields.io/badge/Email-Open%20in%20Gmail-DB4437?style=for-the-badge&logo=gmail&logoColor=white" alt="Email via Gmail">
+  </a>
+  <!-- Uses the user's default mail app -->
+  <a href="mailto:aqeelabbas34@gmail.com?subject=Hello%20Aqeel&body=Hi%20Aqeel,%0A%0A">
+    <img src="https://img.shields.io/badge/Email-Use%20Mail%20App-DB4437?style=for-the-badge&logo=gmail&logoColor=white" alt="Email via Mail app">
   </a>
   <a href="https://www.linkedin.com/in/aqeel-abbas-58b3aa327">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -30,6 +35,7 @@
     <img src="https://img.shields.io/badge/Repos-Explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos">
   </a>
 </p>
+
 
 
 
