@@ -2,16 +2,16 @@
 <svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1f1c2c"/>
-      <stop offset="50%" stop-color="#5b86e5"/>
-      <stop offset="100%" stop-color="#36d1dc"/>
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
     </linearGradient>
     <linearGradient id="smoke" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="rgba(255,255,255,0.8)"/>
       <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
