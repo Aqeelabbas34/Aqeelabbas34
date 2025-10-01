@@ -101,6 +101,7 @@
 | **MyAI** | Real-time AI chat; streamed Markdown; typing indicators; chat memory | Kotlin · Retrofit | 
 | **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | 
 | **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | 
+| **Miner** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API . Cloud Functions| 
 
 </details>
 
