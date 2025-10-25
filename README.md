@@ -102,6 +102,8 @@
 | **AI Trust Ledger** | Plans, ROI, team profit, payouts; audit-friendly history | Kotlin · Cloud Functions | 
 | **BitBloom** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API | 
 | **Miner** | Crypto wallet & staking; IPN handling; balances & history | Kotlin · CoinPayments API . Cloud Functions| 
+| **Facenet** | Face recognition app ; Marks attendence | Kotlin · ML kit , TFLite ,JetPack Compose| 
+
 
 </details>
 
