@@ -113,11 +113,11 @@
 
 ## 📊 Live Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aqeelabbas34&show_icons=true&hide=issues&include_all_commits=true&count_private=true&theme=tokyonight" height="160" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aqeelabbas34&layout=compact&langs_count=8&theme=tokyonight" height="160" alt="Top Langs"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=itsaqeeldev&show_icons=true&hide=issues&include_all_commits=true&count_private=true&theme=tokyonight" height="160" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsaqeeldev&layout=compact&langs_count=8&theme=tokyonight" height="160" alt="Top Langs"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aqeelabbas34&theme=tokyonight" height="160" alt="Streak"/>
+  <img src="https://streak-stats.demolab.com?user=itsaqeeldev&theme=tokyonight" height="160" alt="Streak"/>
 </p>
 
 <!-- Animated extras -->
