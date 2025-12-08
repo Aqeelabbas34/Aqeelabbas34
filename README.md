@@ -1,6 +1,6 @@
 <!-- 🐉 Midnight Dragon Header -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/main/dragon-banner.svg" width="100%" alt="Aqeel Abbas — Midnight Dragon Banner"/>
+  <img src="https://raw.githubusercontent.com/itsaqeeldev/itsaqeeldev/main/dragon-banner.svg" width="100%" alt="Aqeel Abbas — Midnight Dragon Banner"/>
 </p>
 
 <!-- Typing line -->
@@ -123,13 +123,13 @@
 <!-- Animated extras -->
 <p align="center">
   <!-- light -->
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/snake.svg#gh-light-mode-only" alt="Snake light"/>
+  <img src="https://raw.githubusercontent.com/itsaqeeldev/itsaqeeldev/output/snake.svg#gh-light-mode-only" alt="Snake light"/>
   <!-- dark -->
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/output/snake-dark.svg#gh-dark-mode-only" alt="Snake dark"/>
+  <img src="https://raw.githubusercontent.com/itsaqeeldev/itsaqeeldev/output/snake-dark.svg#gh-dark-mode-only" alt="Snake dark"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aqeelabbas34/Aqeelabbas34/main/profile-3d-contrib/profile-night-rainbow.svg" height="260" alt="3D Contributions"/>
+  <img src="https://raw.githubusercontent.com/itsaqeeldev/itsaqeeldev/main/profile-3d-contrib/profile-night-rainbow.svg" height="260" alt="3D Contributions"/>
 </p>
 
 ---
